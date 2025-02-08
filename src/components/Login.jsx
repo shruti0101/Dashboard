@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { loginSuccess } from '../redux/AuthSlice'
+import { loginSuccess } from '../redux/SliceAuth'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import '../styles/global.css';
@@ -16,11 +16,11 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      // Fetch users from API
+     
       const response = await axios.get('https://jsonplaceholder.typicode.com/users');
       const users = response.data;
 
-      // Find a matching user
+  
       const user = users.find((u) => u.email === email);
 
       if (user) {
