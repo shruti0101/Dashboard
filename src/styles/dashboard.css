@@ -1,0 +1,71 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  margin-left: 250px;
+  background: #f4f7fc;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.widgets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+
+.widget {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.widget:hover {
+  transform: translateY(-5px);
+}
+
+
+.logout-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+.logout-button {
+  background: linear-gradient(135deg, #ff4d4d, #ff6a6a);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: auto; 
+  min-width: 120px; 
+  max-width: 50%;
+  text-align: center;
+  display: block;
+}
+
+.logout-button:hover {
+  background: linear-gradient(135deg, #cc0000, #ff3333);
+  transform: scale(1.05);
+}

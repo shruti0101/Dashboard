@@ -1,0 +1,13 @@
+.widget {
+    background-color: #2a2a3c;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .widget h3 {
+    margin-top: 0;
+    color: #f0b429;
+  }
+  

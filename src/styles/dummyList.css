@@ -1,0 +1,42 @@
+.dummy-list-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .list-container {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-container li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+  }
+  
